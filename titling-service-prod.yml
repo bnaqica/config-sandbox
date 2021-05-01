@@ -1,0 +1,6 @@
+spring.profiles.active: prod
+externalSystem.apiBaseUrl: https://www.fake-prod-url.com
+database.postgres.username: prod-username
+database.postgres.password: prod-password
+database.postgres.url: jdbc:postgresql://localhost:5432/prod-database?autoReconnect=true
+env.emailFeature.enabled: false
