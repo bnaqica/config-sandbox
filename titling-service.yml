@@ -52,7 +52,7 @@ logging:
 
 externalsystem:
   apiBaseUrl: http://localhost:7000
-  emailFeatureEnabled: ${env.emailFeature.enabled}
+#  emailFeatureEnabled: ${env.emailFeature.enabled}
 
 server:
   port: 9001

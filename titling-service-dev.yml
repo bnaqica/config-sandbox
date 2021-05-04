@@ -3,4 +3,4 @@ externalsystem.apiBaseUrl: https://www.fake-dev-url.com
 database.postgres.username: dev-username
 database.postgres.password: dev-password
 database.postgres.url: jdbc:postgresql://localhost:5432/dev-database?autoReconnect=true
-env.emailFeature.enabled: true
+#env.emailFeature.enabled: true
