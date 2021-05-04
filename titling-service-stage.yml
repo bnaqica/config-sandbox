@@ -1,5 +1,5 @@
 spring.profiles.active: stage
-externalSystem.apiBaseUrl: https://www.fake-stage-url.com
+external.apiBaseUrl: https://www.fake-stage-url.com
 database.postgres.username: stage-username
 database.postgres.password: stage-password
 database.postgres.url: jdbc:postgresql://localhost:5432/stage-database?autoReconnect=true
