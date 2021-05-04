@@ -50,7 +50,7 @@ logging:
     com.myyesgo: INFO
     org.springframework:.vault: DEBUG
 
-externalSystem:
+externalsystem:
   apiBaseUrl: http://localhost:7000
   emailFeatureEnabled: ${env.emailFeature.enabled}
 
