@@ -2,10 +2,10 @@ spring:
   application:
     name: titling-service
 
-#  datasource:
-#    username: ${database.postgres.username}
-#    password: ${database.postgres.password}
-#    url: ${database.postgres.url}
+  datasource:
+    username: ${database.postgres.username}
+    password: ${database.postgres.password}
+    url: ${database.postgres.url}
 
   flyway:
     enabled: true
@@ -52,6 +52,7 @@ logging:
 
 externalsystem:
   apiBaseUrl: http://localhost:7000
+  isEmailEnabled: ${env.emailFeature.enabled}
 
 server:
   port: 9001
